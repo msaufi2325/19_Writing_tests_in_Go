@@ -13,6 +13,9 @@ var tests = []struct {
 	{"invalid-data", 100.0, 0, 0, true},
 	{"expect-5", 50.0, 10.0, 5.0, false},
 	{"expect-fraction", -1.0, -777.0, 0.0012870013, false},
+	{"expect-zero", 0.0, 10.0, 0.0, false},
+	{"expect-negative", -100.0, 10.0, -10.0, false},
+	{"expect-large-number", 1000000.0, 1000.0, 1000.0, false},
 }
 
 func TestDivision(t *testing.T) {
