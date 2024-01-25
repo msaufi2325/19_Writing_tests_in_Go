@@ -1,0 +1,7 @@
+mode: set
+writing-test/main.go:8.13,11.16 2 0
+writing-test/main.go:11.16,14.3 2 0
+writing-test/main.go:16.2,16.46 1 0
+writing-test/main.go:20.44,23.12 2 1
+writing-test/main.go:23.12,25.3 1 1
+writing-test/main.go:27.2,28.20 2 1
